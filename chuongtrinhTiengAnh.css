@@ -46,11 +46,25 @@ picture {
 html {
   font-family: "Fira Sans", sans-serif;
 }
+.anh {
+    width: 12%;
+  
+    margin-left: 160px;
+    background-color: white;
+    height: 50px;
+   
+  }
+
+.menu{
+    
+}
 .hmenu {
   list-style: none;
   background-color: rgb(10, 77, 10);
   text-align: center;
+
 }
+
 
 .hmenu > li {
   display: inline-block;
@@ -103,19 +117,10 @@ html {
 }
 
 
-.news {
-  width: 80%;
-  margin: 0 auto;
-}
-.news h2:hover {
-  color: rgb(133, 129, 129);
-  cursor: pointer;
-}
-.new-item {
-  margin: 60px 0;
-}
+
 
 .dau {
+    
   height: 50px;
   background-color: rgb(10, 77, 10);
   position: relative;
@@ -140,44 +145,34 @@ html {
   color: white;
 }
 .heading {
-  font-size: 32px;
-  margin-top: 40px;
-  color: rgb(10, 77, 10);
+  font-size: 37px;
+  margin-top: 0px;
+  color: #0efa35;
   letter-spacing: 1px;
   text-align: center;
 }
-.lich {
-  font-size: 32px;
-  margin-top: 40px;
-  background-color: rgb(10, 77, 10);
-  letter-spacing: 1px;
-  text-align: center;
-  color: white;
+.chen{
+  position: relative;
 }
-.envents {
-  width: 80%;
-  margin: 0 auto;
-}
-.event-item {
-  width: 20%;
-  float: left;
-  margin: 0 28px;
-  margin-top: 30px;
-}
-.event-item h3:hover {
-  color: rgb(134, 218, 134);
-  cursor: pointer;
+
+.chen img{
+  width: 100%;
+  height: 870px;
+  
 }
 
 .sign-up {
-  width: 28%;
+ 
+  top: 30px;
+  right: 50px;
+position: absolute;
+  width: 50%;
   margin: 0 auto;
-  background: rgb(51, 199, 64);
+  background:    transparent  ;
   padding: 20px 10px;
-  margin-top: 20%;
-
-  border-radius: 20px;
+ 
 }
+
 .sign-up h3 {
   color: white;
   text-align: center;
@@ -187,20 +182,26 @@ html {
   display: block;
   padding: 10px 5px;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: 6px;
   outline: none;
-  border: 1px solid rgb(62, 204, 230);
+  border: 2px solid rgb(62, 204, 230);
 }
 .sign-up button {
   padding: 10px 15px;
   background: rgb(32, 190, 190);
-  color: #fff;
+  color: rgb(241, 19, 19);
   font-weight: bold;
   outline: none;
   border: 1px solid #fff;
   border-radius: 5px;
 }
+button:hover {
+  background-color: rgb(8, 253, 200);
+  color: black;
+  cursor: progress;
+}
+
 
 footer {
   margin-top: 20px;
@@ -221,13 +222,13 @@ footer {
 .lienhe {
   position: absolute;
   font-size: 12pt;
-  
+ 
   color: rgb(99, 97, 97);
   top: 90px;
   left: 51%;
 }
 .lienhe p:hover {
-  color: green;
+  color: rgb(52, 240, 52);
 }
 .truong {
   position: absolute;
@@ -257,49 +258,93 @@ input[type="text"] {
   border: none;
   font-size: 17px;
 }
+iframe {
+  
+    display: block;margin: 0 auto;
+    margin-bottom: 30px;
+}
+.chuahe img{
+    display: block;margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.banner{
+  height: auto;
+  position: relative;
+  
+}
+.banner>img{
+    width: 100%;
+   height: 390px;
+   margin-bottom:0px;
+}
+.nen{
+  font-size: 45pt;
+  height: 50px;
+  position:absolute;
+  left: 29%;
+  top: 38%;
+  font-weight: bold;
+  color: #fff;
+}
 
-button:hover {
-  background-color: rgb(8, 253, 200);
-  color: black;
-  cursor: progress;
-}
-.event-item img:hover {
-  box-shadow: 0 0 20px rgb(186, 192, 187);
-  cursor: pointer;
-}
-.content img:hover {
-  box-shadow: 0 0 20px rgb(186, 192, 187);
-  cursor: pointer;
-}
+.giua{
+width: 80%;
+margin: auto;
+margin-top: 500px;
 
-.tulap {
-  text-align: center;
-  clear: left;
 }
-.tulap h1 {
-  color: rgb(10, 77, 10);
-  font-size: 35pt;
+.A img{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 6%;
+ 
+}
+.giua i{
+ font-size: 10px;
+}
+.giua p{
+  text-align: justify;
+  width: 67%;
+  font-size: 13pt;
+  color: rgb(68, 67, 67);
+  margin-left: 200px;
+}
+.giua a:hover{
+  color: rgb(61, 46, 46);
   font-weight: bold;
 }
-.tulap > p {
-  font-size: 20pt;
-
-  color: grey;
-}
-.anh {
-  width: 15%;
-
-  margin-left: 160px;
-  background-color: white;
-  border-radius: 0 0 10px 10px;
-}
-.allytb {
-  width: 80%;
-  margin: 0 auto;
-}
-.youtube {
-  float: left;
-  margin: 0 6px;
+ h3{
+  font-size: 26pt;
+  font-weight: bold;
   margin-top: 30px;
+
+}
+h5{
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 60px;
 }
 
+.trove{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.trove a{
+  font-size:10pt ;
+  color: rgb(85, 83, 83);
+  text-decoration: none;
+ 
+}
+.allgallery{
+  margin:0 auto ;
+  width: 80%;
+}
+.gallery{
+  float: left;
+  width: 20%;
+  margin:0 28px ;
+  margin-top: 40px;
+}
